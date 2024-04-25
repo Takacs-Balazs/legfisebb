@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(224, 230, 236);
+}
+
+.container {
+    margin-top: 230px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Mobile-first: Stack items vertically */
+}
+
+.logo img {
+    width: 300px; 
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 100%; /* Make button full width on mobile */
+    max-width: 300px; /* Limit button width on larger screens */
+    margin-top: 20px; 
+    font-size: medium;
+}
+
+.kártya {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%; /* Make cards full width on mobile */
+    max-width: 600px; /* Increase maximum width for larger screens */
+    margin: 0 auto;
+}
+
+.kártya h3 {
+    margin-top: 0;
+}
+
+.lehetőség {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.lehetőség:hover {
+    background-color: #f0f0f0;
+}
+
+#kep {
+    max-width: 100%; 
+    max-height: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
